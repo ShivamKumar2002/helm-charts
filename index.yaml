@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  browserless:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-04-29T18:59:07.492474035Z"
+    description: Headless Browser Automation
+    digest: 66f525e5397d8d9e60785847577de073c8207828fec468c1d3a0ff00f6217db3
+    name: browserless
+    type: application
+    urls:
+    - https://github.com/ShivamKumar2002/helm-charts/releases/download/browserless-0.1.0/browserless-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-29T18:59:07.492479555Z"
