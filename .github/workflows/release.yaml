@@ -7,6 +7,11 @@ on:
       - completed
     branches:
       - main
+  workflow_dispatch:
+  inputs:
+    manualRelease:
+      description: 'Trigger a manual release'
+      required: false
 
 jobs:
   release:
