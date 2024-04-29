@@ -28,7 +28,7 @@ jobs:
       - name: Check lint and test workflow status
         id: check-status
         run: |
-          if [ "${{ github.event.workflow_run.conclusion }}" != "success" ]; then
+          if [ "${{ github.event_name != 'workflow_dispatch' && github.event.workflow_run.conclusion }}" != "success" ]; then
             echo "Lint and test workflow did not complete successfully."
             exit 1
           fi
