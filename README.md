@@ -12,6 +12,7 @@ This repository contains the following Helm charts:
 
 - `browserless`: A chart to deploy [Browserless](https://github.com/browserless/browserless) browser automation tool. See [browserless-helm-chart](https://github.com/ShivamKumar2002/browserless-helm-chart) for more details.
 
+- `big-agi`: A chart to deploy [Big-AGI](https://github.com/enricoros/big-AGI) Generative AI Suite. See [big-agi-helm-chart](https://github.com/ShivamKumar2002/big-agi-helm-chart) for more details.
 
 
 ## Prerequisites
