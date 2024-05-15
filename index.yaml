@@ -2,6 +2,21 @@ apiVersion: v1
 entries:
   big-agi:
   - apiVersion: v2
+    appVersion: 1.16.1
+    created: "2024-05-15T18:15:28.767804262Z"
+    dependencies:
+    - condition: browserless.enabled
+      name: browserless
+      repository: https://ShivamKumar2002.github.io/helm-charts
+      version: 0.1.0
+    description: Deploy your Generative AI suite.
+    digest: 2e5c9051976cc9ef9e82c0c93779e5bb3f1f9ddcacd3c2d6d49ff6e23820e78e
+    name: big-agi
+    type: application
+    urls:
+    - https://github.com/ShivamKumar2002/helm-charts/releases/download/big-agi-0.1.2/big-agi-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 1.15.1
     created: "2024-05-02T20:42:53.749512865Z"
     dependencies:
@@ -42,4 +57,4 @@ entries:
     urls:
     - https://github.com/ShivamKumar2002/helm-charts/releases/download/browserless-0.1.0/browserless-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-02T20:42:53.74952611Z"
+generated: "2024-05-15T18:15:28.767855848Z"
