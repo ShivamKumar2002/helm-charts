@@ -14,10 +14,12 @@ This repository contains the following Helm charts:
 
 - `big-agi`: A chart to deploy [Big-AGI](https://github.com/enricoros/big-AGI) Generative AI Suite. See [big-agi-helm-chart](https://github.com/ShivamKumar2002/big-agi-helm-chart) for more details.
 
+- `linkwarden`: A chart to deploy [Linkwarden](https://github.com/linkwarden/linkwarden). See [linkwarden-helm-chart](https://github.com/ShivamKumar2002/linkwarden-helm-chart) for more details.
+
 
 ## Prerequisites
 
-- Kubernetes 1.12+
+- Kubernetes 1.20+
 - Helm 3.0+
 
 
@@ -56,6 +58,7 @@ helm install my-release shivam-charts/chart-name
 ```
 
 Replace `my-release` with the name you want to assign to your release, and `shivam-charts/chart-name` with the chart you want to install.
+
 
 ## Configuration
 
