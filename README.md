@@ -10,12 +10,11 @@ Welcome to my personal collection of Helm charts. These charts are designed to s
 
 This repository contains the following Helm charts:
 
-- `browserless`: A chart to deploy [Browserless](https://github.com/browserless/browserless) browser automation tool. See [browserless-helm-chart](https://github.com/ShivamKumar2002/browserless-helm-chart) for more details.
-
-- `big-agi`: A chart to deploy [Big-AGI](https://github.com/enricoros/big-AGI) Generative AI Suite. See [big-agi-helm-chart](https://github.com/ShivamKumar2002/big-agi-helm-chart) for more details.
-
 - `linkwarden`: A chart to deploy [Linkwarden](https://github.com/linkwarden/linkwarden). See [linkwarden-helm-chart](https://github.com/ShivamKumar2002/linkwarden-helm-chart) for more details.
 
+- `browserless` (**ON HOLD FOR NOW**): This chart will be updated in near future. A chart to deploy [Browserless](https://github.com/browserless/browserless) browser automation tool. See [browserless-helm-chart](https://github.com/ShivamKumar2002/browserless-helm-chart) for more details.
+
+- `big-agi` (**ON HOLD FOR NOW**): This chart will be updated in near future. A chart to deploy [Big-AGI](https://github.com/enricoros/big-AGI) Generative AI Suite. See [big-agi-helm-chart](https://github.com/ShivamKumar2002/big-agi-helm-chart) for more details.
 
 ## Prerequisites
 
