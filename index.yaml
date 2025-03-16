@@ -74,6 +74,34 @@ entries:
     version: 0.1.0
   linkwarden:
   - apiVersion: v2
+    appVersion: v2.9.3
+    created: "2025-03-16T12:39:23.684994296Z"
+    dependencies:
+    - alias: postgresql
+      condition: postgresql.enabled
+      name: cluster
+      repository: https://cloudnative-pg.github.io/charts
+      version: 0.2.1
+    description: A Helm chart for LinkWarden - Self-hosted collaborative bookmark
+      manager
+    digest: f8553fa695dced4cb1dbf8ba960e220107f87e1a0ede70e4897ec6c8b73d2f3b
+    home: https://github.com/linkwarden/linkwarden
+    keywords:
+    - linkwarden
+    - bookmark-manager
+    - collaboration
+    maintainers:
+    - name: Shivam Kumar
+      url: https://github.com/ShivamKumar2002
+    name: linkwarden
+    sources:
+    - https://github.com/linkwarden/linkwarden
+    - https://github.com/ShivamKumar2002/linkwarden-helm-chart
+    type: application
+    urls:
+    - https://github.com/ShivamKumar2002/helm-charts/releases/download/linkwarden-0.1.1/linkwarden-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: v2.8.4
     created: "2024-12-15T16:08:53.290177088Z"
     dependencies:
@@ -101,4 +129,4 @@ entries:
     urls:
     - https://github.com/ShivamKumar2002/helm-charts/releases/download/linkwarden-0.1.0/linkwarden-0.1.0.tgz
     version: 0.1.0
-generated: "2024-12-15T16:08:53.290196114Z"
+generated: "2025-03-16T12:39:23.68501256Z"
